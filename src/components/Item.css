@@ -1,0 +1,96 @@
+.itemContenedor {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: space-between;
+    width: 300px;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+.editButton {
+    height: 40px;
+    width: 60px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    background-color: transparent;
+    color: white;
+}
+
+.deleteButton {
+    height: 40px;
+    width: 60px;
+    border-radius: 10px;
+    border: 2px solid red;
+    background-color: transparent;
+    color: white;
+}
+
+.doneButton {
+    height: 40px;
+    width: 60px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 228, 30);
+    background-color: transparent;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.backButton{
+    height: 40px;
+    width: 60px;
+    border-radius: 10px;
+    border: 2px solid yellow;
+    background-color: transparent;
+    color: white;
+    margin-bottom: 5px;
+
+}
+
+.buttonContainer{
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputItem{
+    height: 25px;
+    border-radius: 3px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+    width: 100%;
+}
+
+.editButton:hover{
+    background-color: rgba(0, 60, 255, 0.4);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.deleteButton:hover{
+    background-color: rgba(255, 0, 0, 0.4);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.doneButton:hover{
+    background-color: rgba(72, 255, 0, 0.4);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.backButton:hover{
+    background-color: rgba(248, 227, 0, 0.4);
+    cursor: pointer;
+    transition: 0.2s;
+
+}
