@@ -34,7 +34,6 @@
     border: 2px solid rgb(0, 228, 30);
     background-color: transparent;
     color: white;
-    margin-bottom: 5px;
 }
 
 .backButton{
@@ -44,8 +43,6 @@
     border: 2px solid yellow;
     background-color: transparent;
     color: white;
-    margin-bottom: 5px;
-
 }
 
 .buttonContainer{
