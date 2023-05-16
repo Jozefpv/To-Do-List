@@ -28,7 +28,7 @@ function Form() {
             <form className="formContent" onSubmit={handleSubmit}>
                 <input className="inputPrincipal" placeholder="Cocinar..." type='text' name="tarea" value={data} onChange={(event => handleChange(event))} />
                 <button className="addButton">Add</button>
-                <p style={{position:"absolute", right:"0", marginRight:"60px"}}>Total: {list === null ? 0 : list.length}</p>
+                <p style={{position:"relative", transform: "translate(100px, 0px)"}}>Total: {list === null ? 0 : list.length}</p>
             </form>
             {console.log(list)}
             {list && (
