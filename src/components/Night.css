@@ -1,0 +1,30 @@
+.nightContainer{
+    position: absolute;
+    right: 0;
+    margin-right: 50px;
+}
+
+.whiteMode{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;  
+    transition: 0.2s;
+ 
+}
+
+.blackMode{
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 5px; 
+    transition: 0.2s;  
+}
+
+.whiteMode:hover{
+    background-color: rgb(105, 105, 105);
+    cursor: pointer;
+}
+
+.blackMode:hover{
+    background-color: rgb(111, 134, 0);
+    cursor: pointer;
+}

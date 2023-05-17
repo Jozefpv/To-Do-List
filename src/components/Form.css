@@ -14,6 +14,16 @@
     height: 50px;
 }
 
+.totalText{
+    position: relative;
+    transform: translate(100px, 0px);
+}
+
+.scrollContainer{
+    height: 250px;
+    overflow-y: auto;
+}
+
 .inputPrincipal {
     height: 30px;
     width: 220px;
@@ -34,6 +44,63 @@
 
 .addButton:hover{
     background-color: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.clearButton {
+    height: 40px;
+    width: 60px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: transparent;
+    color: white;
+}
+
+.clearButton:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+
+
+
+.inputPrincipalWhite {
+    height: 30px;
+    width: 220px;
+    border-radius: 3px;
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+.addButtonWhite {
+    height: 40px;
+    width: 60px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: transparent;
+    color: black;
+}
+
+.addButtonWhite:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.clearButtonWhite {
+    height: 40px;
+    width: 60px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: transparent;
+    color: black;
+}
+
+.clearButtonWhite:hover{
+    background-color: rgba(0, 0, 0, 0.4);
     cursor: pointer;
     transition: 0.2s;
 }
