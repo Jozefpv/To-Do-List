@@ -32,11 +32,19 @@ function Form() {
                 setList(lsList);
             }
         }
+
+        if (doneTask === null) {
+            const lsdoneTask = JSON.parse(localStorage.getItem('doneTask'));
+            if (lsdoneTask) {
+                setDoneTask(lsdoneTask);
+            }
+        }
     }, []);
 
     useEffect(() => {
         localStorage.setItem('list', JSON.stringify(list));
-    }, [list]);
+        localStorage.setItem('doneTask', JSON.stringify(doneTask));
+    }, [list, doneTask]);
 
     return (
         <>
